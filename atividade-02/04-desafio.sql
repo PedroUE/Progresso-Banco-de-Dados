@@ -5,4 +5,4 @@ UPDATE produtos SET estoque = estoque + 25
 WHERE preco > 150;
 
 DELETE FROM produtos
-WHERE estoque_atual BETWEEN 1 AND 5;
+WHERE estoque BETWEEN 1 AND 5;
