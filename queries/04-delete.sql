@@ -1,0 +1,18 @@
+DELETE FROM usuarios 
+WHERE username = 'CheatCodeKing';
+
+SELECT * FROM usuarios;
+
+DELETE FROM usuarios
+WHERE id = 13;SELECT * FROM usuarios;
+
+SELECT * FROM usuarios;
+
+DELETE FROM usuarios
+WHERE pontos < 3000;
+
+SELECT * FROM usuarios;
+
+SELECT COUNT(*) AS total_usuarios FROM usuarios;
+
+SELECT * FROM usuarios;

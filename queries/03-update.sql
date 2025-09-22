@@ -9,3 +9,4 @@ UPDATE usuarios SET email = 'main@gmail.com'
 WHERE email = 'master@email.com';
 
 SELECT * FROM usuarios;
+
